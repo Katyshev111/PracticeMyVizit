@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet');
+
+html,
+body {
+    height: 100%;
+}
+
+.greetings,
+p,
+h1, 
+h2 {
+    font-family: 'Noto Serif JP', serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: white;
+    padding: 5px;
+    height: 100%;
+}
+
+.headers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 25%;
+    margin-bottom: 3em;
+    background-color: green;
+}
+
+ul  {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.5rem;
+    color: #848484;
+    font-weight: 800;
+}
+
+.for_me {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.photo {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    margin-right: 20px;
+    flex-basis: 750px;
+}
+
+.gif {
+    margin-top: 150px;
+    padding-left: 20px;
+    flex-basis: 450px;
+}
+
+.knowledge {
+    display: flex;
+    background: green;
+    background-color: red;   
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+    color: red;
+}
+
+h1 {
+    color: #08298A;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.footer {
+    background-color: #5882FA;
+    flex: 0 0 auto;
+}
